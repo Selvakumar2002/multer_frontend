@@ -1,0 +1,15 @@
+.cart-main{
+    background-color: #f3f3fe;
+}
+
+
+.Cart-box{
+ width: 60%;
+ margin-top: 100px;
+ background-color: white;
+}
+
+
+.cart-tabs button{
+    width: 50%;
+}

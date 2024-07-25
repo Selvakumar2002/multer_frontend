@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.order{
+    background-color: #fbe6f7;
+}
+.cakecut-img{
+    max-width: 65%;
+}
+.fav-icon{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    
+}

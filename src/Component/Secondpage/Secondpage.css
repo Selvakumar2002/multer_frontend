@@ -1,0 +1,168 @@
+.secondtext{
+    text-align: center;
+    height: 250px;
+    /* background-color: aqua; */
+}
+
+.secondh1{
+    font-size: 320%;
+    font-weight: 700;
+    width: 40%;
+margin-left: 33%;
+}
+.secondtext2{
+    margin-top: 20px;
+
+}
+
+.secondp2{
+    font-size: 150%;
+    font-weight: 500;
+    width: 56%;
+margin-left: 23%;
+}
+
+.mk{
+    height: 440px;
+}
+.mk a{
+    display: none;
+}
+.card1{
+  
+    width: 85%;
+    transform: translateX(110px);
+}
+.webcard1{
+    background-color: rgb(226, 228, 230);
+    color: black;
+    height: 380px;
+    width: 100%;
+    margin-top: 10px;
+}
+.webcard1:hover{
+    background-color: rgb(58, 231, 174);
+}
+.im1:hover{
+    background-color: white;
+}
+.im1{
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: rgb(247, 243, 243);
+    width: 35%;
+    height: 120px;
+    border-radius: 60px;
+}
+#im1{
+    width: 50%;
+    /* background-color: aqua; */
+    margin-left: 30px;
+    margin-top: 30px;
+  
+
+}
+.mblvie {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .mk {
+        /* background-color: aqua; */
+        display: none;
+    }
+    #s89{
+        /* background-color: aquamarine; */
+        height: 530px;
+    }
+    .secondtext{
+        height: 200px;
+        /* background-color: aqua; */
+    }
+    .nkm{
+        
+    }
+    .mblvie{
+        display: flex;
+    }
+    .mblvie a{
+    display: none;
+}
+
+    .carousel-indicators{
+        /* background-color: burlywood; */
+        /* width: 70px; */
+        transform: translateY(35px);
+    }
+    .carousel-indicators [data-bs-target]{
+        width: 5px !important;
+        border-radius: 4rem;
+        border: 1px solid black;
+    }
+
+
+
+
+
+    .secondtext{
+        text-align: none;
+        height: auto;
+        /* background-color: aqua; */
+    }
+    
+    .secondh1{
+        font-size: 140%;
+        font-weight: 700;
+        width: 100%;
+    margin-left: 0%;
+    }
+    .secondtext2{
+        margin-top: 2px;
+    
+    }
+    
+    .secondp2{
+        font-size: 90%;
+        font-weight: 400;
+        width: 100%;
+    margin-left: 1%;
+    }
+    
+    .mk{
+        height: 440px;
+    }
+    .mk a{
+        display: none;
+    }
+    .card1{
+      
+        width: 100%;
+        transform: translateX(10px);
+    }
+    .webcard1{
+        height: 360px;
+    }
+    .webcard1:hover{
+        background-color: rgb(58, 231, 174);
+    }
+    .im1:hover{
+        background-color: white;
+    }
+    .im1{
+        margin-left: 100px;
+        margin-top: 30px;
+        background-color: rgb(156, 149, 149);
+        /* width: 35%; */
+        height: 110px;
+        border-radius: 60px;
+    }
+    #im1{
+        width: 80% !important;
+        /* height: 50px; */
+        /* background-color: aqua; */
+        margin-left: 10px;
+        margin-top: 20px;
+      
+    
+    }
+  }

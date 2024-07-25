@@ -1,0 +1,212 @@
+.fourthpageh1{
+    margin-left: 70px;
+    margin-top: 30%;
+}
+.fourthpageh1 h1{
+    margin-top: 20px;
+}
+.fourthpageh1 p{
+   width: 90%;
+   margin-top: 20px;
+}
+.button125{
+    margin-top: 15px;
+}
+.botfourth{
+    padding: 5%;
+    position: relative;
+}
+.fourthpagebot12{
+    background-color: yellow;
+    height: 420px;
+    width: 75%;
+    border-radius: 50% 50% 0% 0%;
+    position: absolute;
+    top: 75px;
+    left: 50px;
+}
+.fourthpagebot2{
+    border-left: 2px dashed black;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+    border-radius: 50% 40% 0% 0%;
+width: 80%;
+height: 420px;
+    margin-top: 50px;
+position: relative;
+}
+.fourthbot1{
+    position: absolute;
+    border: 1px solid red;
+    background-color: red;
+
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    left: 75px;
+}
+.fourthbot2{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    background-color: green;
+
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.fourthbox{
+    border: 1px solid white;
+    height: 80px;
+    position: absolute;
+    /* top: 20%; */
+    width: 30%;
+    transform: translateX(-60px);
+    background-color: white;
+    box-shadow:0px  0px 4px 2px rgb(112, 112, 114) ;
+    top: 78%;
+    border-radius: 10px;
+}
+.fourthbox1{
+    border: 1px solid yellow;
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.fourthbot3{
+    position: absolute;
+    top: 50%; left:  -9px;
+    border: 1px solid darkgoldenrod;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.fourthbot4{
+    position: absolute;
+    top: 70%; left: -9px;
+    border: 1px solid yellow ;
+    background-color: yellow;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.fourthbot5{
+    position: absolute;
+    top: 10%; left: 90%;
+    border: 1px solid rgb(98, 209, 204) ;
+    background-color: rgb(98, 209, 204);
+    border-radius: 50%;
+    width: 28%;
+    height: 28%;
+}
+.fourthimg{
+    height: 470px;
+    width: 165%;
+    clip-path: polygon(20% 0%, 79% 0, 81% 94%, 20% 95%);
+  position: absolute;
+  left:-33%;
+  top: -6%;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+.f89{
+    /* background-color: aqua; */
+    margin-top: 10px;
+}
+   
+.fourthpageh1{
+    margin-left: 1px;
+    margin-top: 5%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.fourthpageh1 h1{
+    margin-top: 2px;
+    width: 100%;
+    font-size: 23px;
+    font-weight: 700;
+    
+}
+.fourthpageh1 p{
+   width: 105%;
+   margin-top: 2px;
+}
+.button125{
+    margin-top: 1px;
+}
+.botfourth{
+    padding: 5%;
+    position: relative;
+    width: 95%;
+    /* background-color: aqua; */
+    margin-left: 15px;
+    transform: translateY(-20px);
+}
+.fourthpagebot12{
+    background-color: yellow;
+    height: 280px;
+    width: 80%;
+    border-radius: 50% 50% 0% 0%;
+    position: absolute;
+    top: 75px;
+    left: 30px;
+}
+.fourthpagebot2{
+ 
+    border-radius: 60% 45% 0% 0%;
+width: 70%;
+height: 283px;
+    margin-top: 60px;
+
+}
+.fourthbot1{
+    top: 1px;
+    left: 46px;
+}
+.fourthbot2{
+    top: 65px;
+    left: 3px;
+  
+}
+.fourthbox{
+    height: 55px;
+    width: 40%;
+    transform: translateX(-35px);
+}
+.fourthbox1{
+    height: 20px;
+    width: 20px;
+
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+
+.fourthbot5{
+    position: absolute;
+    top: 10%; left: 110%;
+    border: 1px solid rgb(98, 209, 204) ;
+    background-color: rgb(98, 209, 204);
+    border-radius: 50%;
+    width: 35%;
+    height: 28%;
+}
+.fourthimg{
+    height: 315px;
+    clip-path: polygon(20% 0%, 79% 0, 81% 94%, 20% 95%);
+  position: absolute;
+  left:-33%;
+  top: -6%;
+}
+
+}

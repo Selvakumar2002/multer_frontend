@@ -1,0 +1,32 @@
+#navlink{
+    margin-left: -5%;
+    margin-top: 5px;
+    width: 70%;
+}
+#nav{
+    padding: 2%;
+margin-left: 10%;
+    width: 80%;
+    
+}
+#pkl{
+    width: 70%;
+}
+#mkmkmk{
+    margin-top: 15px;
+}
+
+
+
+@media only screen and (max-width: 390px) {
+  
+    .text{
+        margin-left: 40px;
+    }
+    #nav{
+        width: 100%;
+        margin-left: -5px;
+    }
+
+  }
+

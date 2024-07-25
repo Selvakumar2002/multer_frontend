@@ -1,0 +1,118 @@
+.cart_container {
+    margin: 20px;
+  }
+  
+  .cart_product {
+    /* display: inline-flex;
+    justify-content: space-between; */
+    background-color: rgb(225, 230, 230);
+    width: 80%;
+    margin-left: 10%;
+  }
+  #ceh{
+    margin-left: 20%;
+  }
+  .cart_box {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background-color: #b0b3b1;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 10px 0;
+  }
+  #in{
+    width: 30px;
+  }
+  .cart_pproduct_container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart_img_box img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .cart_item_detail {
+    flex-grow: 1;
+  }
+  
+  .quantity_dec,
+  .quantity_inc,
+  .remove_cart {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 5px;
+  }
+  .remove_cart{
+    transform: translateX(-80px);
+    margin-top: 45px;
+    border-radius: 50px;
+    width: 40px;
+    height: 35px;
+    background-color: #939b9e;
+  }
+  .checkout {
+    background-color: #9fa3a0;
+    color: #fff;
+    border: none;
+    width: 70%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  .empty_cart {
+    text-align: center;
+  }
+  
+  .cart_shop {
+    display: block;
+    margin: 20px auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 768px) {
+    .cart_img_box img {
+      width: 80px;
+    }
+  
+    .cart_item_detail h2 {
+      font-size: 16px;
+    }
+      .cart_box {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background-color: #b0b3b1;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: -8%;
+    padding: 10px 0;
+  }
+  .remove_cart{
+    transform: translateX(-20px);
+    margin-top: -5px;
+    border-radius: 50px;
+    width: 40px;
+    height: 35px;
+    background-color: #939b9e;
+  }
+  }
+  

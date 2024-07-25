@@ -1,0 +1,91 @@
+/* Product.css */
+
+/* Style for each product box */
+.box {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  /* display: inline; */
+  margin-left: 5%;
+  width: 20%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+/* Style for image container */
+.img-box {
+  width: 90%;
+  /* margin-right: 20px; */
+  margin-left: 5%;
+}
+
+/* Style for product image */
+.imgcur {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Style for product details */
+.detail {
+  flex: 1;
+  margin-left: 20%;
+
+}
+
+/* Style for product category */
+.addto2 {
+  color: #333;
+  margin-top: 0;
+}
+
+/* Style for product title */
+.addto3 {
+  color: #222;
+}
+
+/* Style for product price */
+.addto4 {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Style for add to cart button */
+.addtocart {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addtocart:hover {
+  background-color: #0056b3;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .box {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    /* display: inline; */
+    margin-left: 20px;
+    width: 90%;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  .img-box {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .detail {
+    text-align: center;
+  }
+}

@@ -1,0 +1,26 @@
+
+.product-list{
+  /* float: left; */
+  /* border-style: double; */
+  display: ruby;  
+}
+.Product-Card{
+  margin: 10px;
+  background-color:rgb(242, 244, 244) ;
+  
+  /* padding: 10px; */
+}
+.Product-img{
+  width: 60%;
+  padding: 10px;
+}
+.love{
+  float: right;
+  /* border-radius: 3rem; */
+  /* border-width: thin; */
+  border: none;
+  background-color: transparent;  
+}
+.div-cart{
+  display: ruby;
+}

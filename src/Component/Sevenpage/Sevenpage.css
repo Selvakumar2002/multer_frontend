@@ -1,0 +1,109 @@
+
+
+.seven{
+    transform: translateY(40px);
+    width: 100%;
+    font-size: 300%;
+    
+}
+.sevenp{
+    transform: translateY(50px);
+    width: 70%;
+    margin-left: 15%;
+    font-size: 20px;
+}
+
+
+.sevenpage1{
+    background-color: black;
+    width: 85%;
+    margin-left: 8%;
+    border-radius: 10px;
+    color: white;
+    height: 300px;
+    text-align: center;
+}
+.seveninput{
+    width: 64%;
+    margin-top: 90px;
+    margin-left: 15%;
+
+
+}
+.seveninput{
+    height:55px;
+    width: 40%;
+    /* border-Style:dashed; */
+    /* background-Color:white; */
+    margin-left: 29%;
+    
+}
+
+.sevenbutton{
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    #dws89{
+      transform: translateY(10%);
+    }
+
+    
+
+
+    .seven{
+        transform: translateY(10px);
+        width: 100%;
+        font-size: 190%;
+        
+    }
+    .sevenp{
+        transform: translateY(10px);
+        width: 90%;
+        margin-left: 6%;
+        font-size: 17px;
+        text-align: left;
+        
+    }
+    
+    
+    .sevenpage1{
+        background-color: black;
+        width: 100%;
+        margin-left: 1%;
+        height: 300px;
+        text-align: none;
+    }
+    .seveninput{
+        width: 100%;
+        margin-top: 9px;
+        margin-left: 6% !important;
+    
+    
+    }
+    .seveninput{
+        height:55px;
+        width: 90%;
+        /* border-Style:dashed; */
+        /* background-Color:white; */
+        margin-left: 1%;
+        
+    }
+    
+    .sevenbutton{
+        
+    
+    }
+    
+    
+    
+
+
+
+       
+    }
